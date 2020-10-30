@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +48,8 @@ table {
 
 * {
     box-sizing: border-box;
+    padding:20% 0;
+    margin:20% 0;
 }
 
 html, body {
@@ -60,14 +61,48 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    padding:1% 0 0;
+}
+
+h3{
+    padding:3% 0 0;
 }
 
 p {
     line-height: 1.4;
+    padding:1% 0 2%;
+}
+
+header{
+    margin:1% 0;
+    display:flex;
+    justify-content:center;
+    align-items:baseline;
+}
+
+header img{
+    width:10%;
+}
+
+nav{
+    width:50%;
+    display:flex;
+    justify-content:space-around;
+}
+
+nav a{
+    color:black;
+    text-decoration: none;
+}
+
+.imgContainer{
+    margin:1%;
+    display:flex;
+    justify-content: center;
 }
 
 .container {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -104,12 +139,79 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.boxes .box1{
+    background:teal;
+}
+
+.boxes .box2{
+    background:gold;
+}
+
+.boxes .box3{
+    background:cadetblue;
+}
+
+.boxes .box4{
+    background:coral;
+}
+
+.boxes .box5{
+    background:crimson;
+}
+
+.boxes .box6{
+    background:forestgreen;
+}
+
+.boxes .box7{
+    background:darkorchid;
+}
+
+.boxes .box8{
+    background:hotpink;
+}
+
+.boxes .box9{
+    background:indigo;
+}
+
+.boxes .box10{
+    background:dodgerblue;
+}
+
+.about{
+    border-bottom:1px dashed black;
+}
+
+.pics{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.strategy, .howWeWork, .placesWeWork, .collab{
+    width:46%;
+    padding:2% 0;
+    margin:2%;
+    border-bottom:1px dashed black;
+}
+
+.learn{
+    width:35%;
+    color:black;
+    text-decoration:none;
+    padding:3% 1%;
+    border:2px solid black;
+    border-radius:10px;
+    margin:2% 0;
+    display:flex;
+    justify-content:center;
 }
 
 .bottom-content {
