@@ -61,12 +61,16 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    padding:1% 0 0;
+}
+
+h3{
     padding:3% 0 0;
 }
 
 p {
     line-height: 1.4;
-    padding:3% 0;
+    padding:1% 0 2%;
 }
 
 header{
@@ -193,18 +197,21 @@ nav a{
 }
 .strategy, .howWeWork, .placesWeWork, .collab{
     width:46%;
-    padding:0 0 5%;
+    padding:2% 0;
     margin:2%;
     border-bottom:1px dashed black;
 }
 
 .learn{
+    width:35%;
     color:black;
     text-decoration:none;
-    padding:1.5% 6%;
+    padding:3% 1%;
     border:2px solid black;
     border-radius:10px;
-    margin:20% 0;
+    margin:2% 0;
+    display:flex;
+    justify-content:center;
 }
 
 .bottom-content {
