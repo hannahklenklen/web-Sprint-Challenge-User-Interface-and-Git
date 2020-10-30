@@ -95,7 +95,7 @@ nav a{
 }
 
 .container {
-    width: 800px;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -132,7 +132,6 @@ nav a{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -178,6 +177,15 @@ nav a{
 
 .boxes .box10{
     background:dodgerblue;
+}
+
+.pics{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.strategy, .howWeWork, .placesWeWork, .collab{
+    width:50%;
 }
 
 .bottom-content {
